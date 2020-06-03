@@ -2,9 +2,9 @@
 
 from nltk.corpus import gutenberg, machado, movie_reviews
 
-# print( gutenberg.fileids() )
+# print(gutenberg.fileids())
 print(machado.fileids())
-# print( movie_reviews.fileids() )
+# print(movie_reviews.fileids())
 
 
 machado_teatro2 = machado.words("teatro/matt02.txt")
